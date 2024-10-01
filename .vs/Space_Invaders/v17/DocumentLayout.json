@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Spaceship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Spaceship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\GAME.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\GAME.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\alpha.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\alpha.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Blocks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\BonusEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\BonusEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Blocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15F24BE3-9D10-4550-9BDD-BAF550569B82}|Space_Invaders.vcxproj|solutionrelative:src\\Obstacles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GAME.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.h",
+              "RelativeDocumentMoniker": "src\\GAME.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.h",
+              "RelativeToolTip": "src\\GAME.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T05:20:00.361Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GAME.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.cpp",
+              "RelativeDocumentMoniker": "src\\GAME.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\GAME.cpp",
+              "RelativeToolTip": "src\\GAME.cpp",
+              "ViewState": "AQIAAP4AAAAAAAAAAAASwBABAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-15T16:54:34.963Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.h",
+              "RelativeDocumentMoniker": "src\\Bullet.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.h",
+              "RelativeToolTip": "src\\Bullet.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T05:46:04.488Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bullet.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.cpp",
+              "RelativeDocumentMoniker": "src\\Bullet.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Bullet.cpp",
+              "RelativeToolTip": "src\\Bullet.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswCsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-02T14:31:33.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Blocks.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.h",
+              "RelativeDocumentMoniker": "src\\Blocks.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.h",
+              "RelativeToolTip": "src\\Blocks.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-04T05:42:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BonusEnemy.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.cpp",
+              "RelativeDocumentMoniker": "src\\BonusEnemy.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.cpp",
+              "RelativeToolTip": "src\\BonusEnemy.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T10:58:33.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BonusEnemy.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.h",
+              "RelativeDocumentMoniker": "src\\BonusEnemy.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\BonusEnemy.h",
+              "RelativeToolTip": "src\\BonusEnemy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-14T10:56:03.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.cpp",
+              "RelativeDocumentMoniker": "src\\Enemy.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.cpp",
+              "RelativeToolTip": "src\\Enemy.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-06T06:00:29.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.h",
+              "RelativeDocumentMoniker": "src\\Enemy.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Enemy.h",
+              "RelativeToolTip": "src\\Enemy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-06T05:55:36.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Obstacles.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.cpp",
+              "RelativeDocumentMoniker": "src\\Obstacles.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.cpp",
+              "RelativeToolTip": "src\\Obstacles.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-04T05:53:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Obstacles.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.h",
+              "RelativeDocumentMoniker": "src\\Obstacles.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Obstacles.h",
+              "RelativeToolTip": "src\\Obstacles.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-04T05:47:32.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Blocks.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.cpp",
+              "RelativeDocumentMoniker": "src\\Blocks.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Blocks.cpp",
+              "RelativeToolTip": "src\\Blocks.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-04T05:44:10.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spaceship.h",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.h",
+              "RelativeDocumentMoniker": "src\\Spaceship.h",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.h",
+              "RelativeToolTip": "src\\Spaceship.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-31T10:07:48.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Spaceship.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.cpp",
+              "RelativeDocumentMoniker": "src\\Spaceship.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\Spaceship.cpp",
+              "RelativeToolTip": "src\\Spaceship.cpp",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvz0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-31T10:07:44.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "alpha.cpp",
+              "DocumentMoniker": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\alpha.cpp",
+              "RelativeDocumentMoniker": "src\\alpha.cpp",
+              "ToolTip": "C:\\Engineering\\Projects\\misc\\Space_Invaders\\src\\alpha.cpp",
+              "RelativeToolTip": "src\\alpha.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-31T09:20:47.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿  GAME.cpp
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.h(49,38): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(21,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(37,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(38,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(68,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(69,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(149,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(166,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(167,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(209,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.cpp(212,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Spaceship.cpp
+C:\Engineering\Projects\misc\Space_Invaders\src\Spaceship.cpp(74,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  alpha.cpp
+C:\Engineering\Projects\misc\Space_Invaders\src\GAME.h(49,38): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Engineering\Projects\misc\Space_Invaders\src\alpha.cpp(10,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  75 of 618 functions (12.1%) were compiled, the rest were copied from previous compilation.
+    10 functions were new in current compilation
+    25 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Space_Invaders.vcxproj -> C:\Engineering\Projects\misc\Space_Invaders\x64\Release\Space_Invaders.exe
