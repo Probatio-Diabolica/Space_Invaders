@@ -28,7 +28,7 @@ A modern take on the classic **Space Invaders** arcade game, built using **C++**
 
 ## Setup
 
-To run this project on your local machine:
+To run this project using **Visual Studio**:
 
 1. Clone the repository:
 
@@ -36,20 +36,15 @@ To run this project on your local machine:
     git clone https://github.com/your-username/space-invaders-cpp.git
     ```
 
-2. Install **Raylib**:  
-   Follow the installation guide on [Raylib's official website](https://www.raylib.com/).
+2. Open the project in **Visual Studio**:
+   - Open Visual Studio and create a new empty project.
+   - Add the existing source files (`.cpp` files) to your project.
+   - Set up Raylib by configuring the **Include** directories and **Library** directories in the project properties.
 
-3. Compile the project:
+3. Build and run the project:
+   - Build the solution (Ctrl + Shift + B).
+   - Run the game (F5) to play.
 
-    ```bash
-    g++ -o SpaceInvaders main.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-    ```
-
-4. Run the executable:
-
-    ```bash
-    ./SpaceInvaders
-    ```
 
 ## How to Play
 
