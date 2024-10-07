@@ -39,7 +39,7 @@ int main()
 		DrawFPS(0,0);
 		
 		//--------- TEST HERE--------------
-		// 2:07:31
+		
 		// Collisions
 		//TODO: Remove SetTargetFPS and implement Delta time
 		//------------------------
