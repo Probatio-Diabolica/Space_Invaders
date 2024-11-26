@@ -21,7 +21,8 @@ public:
 	int getBulletTop() const;
 
 public:
-	Rectangle rect;
+	////Maybe I'll remove this 
+	//Rectangle rect;
 	bulletList playerBulletList;
 
 private:

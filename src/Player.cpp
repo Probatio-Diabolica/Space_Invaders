@@ -6,6 +6,7 @@ Player::Player()
 	m_Position = { (GetScreenWidth() - float(m_Image.width))/ 2,GetScreenHeight() - float(m_Image.height) - 100 };
 	m_bulletSound = LoadSound("Assets/Sounds/Bullet.wav");
 	playerBulletList = bulletList(35);
+	
 }
 
 Player::~Player()

@@ -11,7 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\alpha.cpp" />
+    <ClCompile Include="src\SYS.cpp" />
+    <ClCompile Include="src\Beta.cpp" />
     <ClCompile Include="src\Blocks.cpp" />
     <ClCompile Include="src\Play.cpp" />
     <ClCompile Include="src\Utils\Bullet.cpp" />
@@ -23,6 +24,7 @@
     <ClCompile Include="src\Utils\BulletList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\SYS.hpp" />
     <ClInclude Include="src\Blocks.hpp" />
     <ClInclude Include="src\Play.hpp" />
     <ClInclude Include="src\Utils\Bullet.hpp" />
@@ -32,7 +34,6 @@
     <ClInclude Include="src\BonusEnemy.hpp" />
     <ClInclude Include="src\Player.hpp" />
     <ClInclude Include="src\Utils\BulletList.hpp" />
-    <ClInclude Include="src\Utils\EnemySegment.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

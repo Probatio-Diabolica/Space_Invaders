@@ -1,8 +1,7 @@
-#include "GAME.hpp"
+#include "SYS.hpp"
 
-
-int main(int *argc, char ** argv)
+int main()
 {
-	GAME game = GAME();
-	game.run();
+	SpaceInvaders::run();
 }
+

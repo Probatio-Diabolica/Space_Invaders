@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\alpha.cpp">
+    <ClCompile Include="src\SYS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Player.cpp">
@@ -43,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Play.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Beta.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,7 +77,7 @@
     <ClInclude Include="src\Play.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Utils\EnemySegment.hpp">
+    <ClInclude Include="src\SYS.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

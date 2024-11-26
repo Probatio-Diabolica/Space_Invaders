@@ -16,7 +16,7 @@ bulletList::bulletList()
 }
 bulletList::bulletList(const bulletList& other)
 {
-    // Ok here We are first set everything to safe initial values, I don't want pesky Segmentation fault/wierd exceptions that may haunt me for no reasons
+    // Ok here We are :: first set everything to safe initial values, I don't want pesky Segmentation fault/wierd exceptions that may haunt me for no reasons
     m_array = nullptr;
     m_size = 0;
     m_top = -1;
