@@ -25,8 +25,6 @@ public:
 
 private:
 	void m_InitGame();
-	void m_deleteInactiveBullets();
-	void m_createObstacles();
 	void m_createAliens();
 	void m_moveEnemy();
 	void m_moveDownEnemy(int distance);
@@ -47,12 +45,11 @@ public:
 
 private:
 	Player m_Player; 
-	std::vector<Obstacle> m_ObstaclesList;
 	std::vector<HeianAlien> m_AliensList;
 	std::vector<Bullet> m_enemyBullets;
 	bulletList enemyBulletList;
 	int m_AlienDir;
-	constexpr static float m_enemyBTI = 0.35;
+	constexpr static float m_enemyBTI = 0.05;
 	float m_enemyLastTimeShoot;
 	SpecialEnemy m_Nue;
 	float m_NueSpawnInterval;

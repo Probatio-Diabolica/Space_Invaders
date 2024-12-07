@@ -1,9 +1,27 @@
 #include"SYS.hpp"
 #include<raylib.h>
 #include<string>
+#include<chrono>
 #include "GAME.hpp"
 #include "Obstacles.hpp"
 #include "Enemy.hpp"
+
+
+
+static uint64_t getTimeNS()
+{
+	auto now = std::chrono::steady_clock::now();
+	auto duration = now.time_since_epoch();
+	return std::chrono::duration_cast<std::chrono::nanoseconds>(duration).count();
+}
+
+static uint64_t getTimeMS() {
+	auto now = std::chrono::system_clock::now();
+	auto duration = now.time_since_epoch();
+	return std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();
+}
+
+
 static std::string FormatWithLeadingZeros(int number,int width)
 {
 	std::string numberText = std::to_string(number);
@@ -24,19 +42,41 @@ void SpaceInvaders::run()
 	InitWindow(	(width + offset), (height + offset * 2) , "SPACE INVADER TITLE");
 	InitAudioDevice();
 	Font font = LoadFontEx("Assets/Fonts/Font.ttf",64,0,0);
-	SetTargetFPS(60);
+	//SetTargetFPS(60);
 	Texture2D staticPlayer = LoadTexture("Assets/Player/player.png");
 	GAME game;
-	Obstacle o = Obstacle({ 200,300 });
 	HeianAlien alien = HeianAlien(1, { 100,100 });
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//time
+	uint64_t timer = getTimeMS();
+	uint64_t initTime = getTimeNS();
+	const double nano = 1000000000.0 / 60.0;
+	double delta = 0;
+	int frames = 0;
+	int updates = 0;
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	while (!WindowShouldClose())
-	{
-		UpdateMusicStream(game.music);
-		game.inputs();
-		game.update(); 
+	{	////////////////////////////////////
+		//Time calc
+		uint64_t currentTime = getTimeNS();
+		delta += (currentTime - initTime) / nano;
+		initTime = currentTime;
+		////////////////////////////////////////////////////
+		
+		while (delta >= 1)
+		{
+			UpdateMusicStream(game.music);
+			game.inputs();
+			game.update();
+			++updates;
+			--delta;
+		}
+		DrawFPS(0, 0);
 		BeginDrawing();
 		ClearBackground(background);
-		DrawFPS(0,0);
+		
 	
 		DrawLineEx({ 25,730 }, { 775,730 }, 3, BLACK);
 

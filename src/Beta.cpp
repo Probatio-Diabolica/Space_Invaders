@@ -3,5 +3,9 @@
 int main()
 {
 	SpaceInvaders::run();
+	return 0;
 }
+
+
+
 

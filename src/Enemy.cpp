@@ -48,7 +48,7 @@ void HeianAlien::Move(int direction)
 
 Rectangle HeianAlien::getRect()
 {
-	return {Position.x,Position.y,float(Image.width),float(Image.height)};
+	return {Position.x,Position.y,float(alienImages[m_Type-1].width),float(alienImages[m_Type - 1].height)};
 }
 
 

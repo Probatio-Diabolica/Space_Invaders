@@ -117,15 +117,3 @@ bulletList& bulletList::operator=(const bulletList& other)
     }
     return *this;
 }
-
-//void bulletList::m_shuffle()
-//{
-//	if (m_top > 1)
-//	{
-//		for (int i = 0; i <= m_top; i++)
-//		{
-//			if (!m_array[i].IsActive()) swap(&m_array[i], &m_array[m_top--]);
-//		}
-//	}
-//	
-//}

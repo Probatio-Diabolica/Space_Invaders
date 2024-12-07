@@ -28,13 +28,13 @@ void GAME::m_InitGame()
 	highscore = m_LoadHighScoreFromFile();
 	m_enemyLastTimeShoot = 0;
 	m_AlienDir = 1;
-	m_createObstacles();
 	m_createAliens();
 	m_NueTimeLastSpawn = 0.0;
 	m_NueSpawnInterval = GetRandomValue(10, 20);
 	forward = true;
 
 }
+
 GAME::~GAME()
 {
 	UnloadMusicStream(music);
@@ -53,14 +53,13 @@ void GAME::draw()
 	m_Player.Draw();
 	m_Player.playerBulletList.render();
 	enemyBulletList.render();
-	for (auto& obstacle : m_ObstaclesList) obstacle.Draw();
 	for (auto& alien : m_AliensList) alien.Draw();
 	m_Nue.Draw();
 }
 
 void GAME::update()
 {
-	if (forward == true)
+	if (forward)
 	{
 		double currentTime = GetTime();
 		if (currentTime - m_NueTimeLastSpawn > m_NueSpawnInterval)
@@ -108,83 +107,20 @@ void GAME::inputs()
 		}
 	}
 
-	/*
-	this is the future future
-	if (WindowShouldClose()) running = false;
-	if (IsKeyDown(KEY_LEFT) or IsKeyDown(KEY_KP_4))
-	{
-		m_Player.MoveLeft();
-	}
-	else if (IsKeyDown(KEY_RIGHT) or IsKeyDown(KEY_KP_6))
-	{
-		m_Player.moveRight();
-	}
-	if (IsKeyDown(KEY_UP) or IsKeyDown(KEY_KP_8))
-	{
-		m_Player.moveUp();
-	}
-	else if (IsKeyDown(KEY_DOWN) or IsKeyDown(KEY_KP_2))
-	{
-		m_Player.MoveDown();
-	}
-	if (IsKeyDown(KEY_Z))
-	{
-		m_Player.FireLaser();
-	}*/
+
 }
 
 //to do it later
 void GAME::run()
 {
-	while (forward == true)
+	while (forward )
 	{
 		update();
 		inputs();
-		draw();
+		//draw();
 	}
 }
 
-
-
-void GAME::m_deleteInactiveBullets()
-{
-
-	/// This might not remain here for ever
-
-	/*for (auto it = m_Player.BulletList.begin(); it != m_Player.BulletList.end();)
-	{
-		if (!it->IsActive()) it = m_Player.BulletList.erase(it);
-		else ++it;
-	}*/
-
-	//m_Player.tes__bullet.update();
-	//here's the thing. 
-	//We don't need this BS
-	// We can simplify this: this is the idea
-
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	// > We update the list as usual.
-	// > By any time a bullet dies.
-	// > We put it in the end of the array. Basically swap it with the last item in the array 
-	// > simple
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	/*for (int i = 0; i < tes_enemylist.getTop(); i++)
-	{
-		if(tes_enemylist[i].)
-	}*/
-}
-
-void GAME::m_createObstacles()
-{ 
-	int obstacleWidth = Obstacle::grid[0].size()  * 3 ;
-	float gap = float(GetScreenWidth() - (4 * obstacleWidth)) / 5;
-	for (int temp = 0; temp < 4; temp++)
-	{
-		float oX = (temp + 1) * gap + temp * obstacleWidth;
-		m_ObstaclesList.push_back(Obstacle({ oX,float(GetScreenHeight() - 200) }));
-	}
-}
 
 void GAME::m_createAliens()
 {
@@ -247,16 +183,15 @@ void GAME::m_alienShootLazer()
 void GAME::m_checkForCollisions()
 {
 
-	//spaceship lazers
+	//player
 	for (int i = 0; i < m_Player.getBulletTop(); i++)
 	{
-		//aliens
+
 		auto it = m_AliensList.begin();
 		while (it != m_AliensList.end())
 		{
 			if (CheckCollisionRecs(it->getRect(), m_Player.playerBulletList[i].getRect()) )
 			{
-				PlaySound(m_Explosion);
 				switch (it->GetType())
 				{
 				case DRAGON:
@@ -272,25 +207,11 @@ void GAME::m_checkForCollisions()
 				it = m_AliensList.erase(it);
 				m_Player.playerBulletList[i].Die();
 				m_CheckforHighScore();
+				PlaySound(m_Explosion);
 			}
 			else ++it;
 		}
 
-		//for obstacles
-		for (auto& obstacle : m_ObstaclesList)
-		{
-			auto it = obstacle.blocks.begin();
-			while (it != obstacle.blocks.end())
-			{
-				if (CheckCollisionRecs(it->getRect(), m_Player.playerBulletList[i].getRect()))
-				{
-					it = obstacle.blocks.erase(it);
-					m_Player.playerBulletList[i].Die();
-				}
-				else ++it;
-			}
-		}
-		//For nue
 		if (CheckCollisionRecs(m_Nue.getRect(), m_Player.playerBulletList[i].getRect()))
 		{
 			m_Nue.Kill();
@@ -310,62 +231,10 @@ void GAME::m_checkForCollisions()
 			--playerLives;
 			if (playerLives == 0) m_GameOver();
 		}
-		// collision with obstacles
-		for (auto& obstacle : m_ObstaclesList)
-		{
-			auto it = obstacle.blocks.begin();
-			while (it != obstacle.blocks.end())
-			{
-				if (CheckCollisionRecs(it->getRect(), enemyBulletList[i].getRect()))
-				{
-					it = obstacle.blocks.erase(it);
-					enemyBulletList[i].Die();
-				}
-				else ++it;
-			}
-		}
 
 	}
 
 
-	////enemy  bullets
-	//for (auto& bullet : m_enemyBullets)
-	//{
-	//	if (CheckCollisionRecs(bullet.getRect(), m_Player.getRect()))
-	//	{
-	//		bullet.Die();
-	//		--playerLives;
-	//		if (playerLives == 0) m_GameOver();
-	//	}
-	//	for (auto& obstacle : m_ObstaclesList)
-	//	{
-	//		auto it = obstacle.blocks.begin();
-	//		while (it != obstacle.blocks.end())
-	//		{
-	//			if (CheckCollisionRecs(it->getRect(), bullet.getRect()))
-	//			{
-	//				it = obstacle.blocks.erase(it);
-	//				bullet.Die();
-	//			}
-	//			else ++it;
-	//		}
-	//	}
-	//}
-	//Enemy colliding with obstacle
-	for (auto& enemy : m_AliensList)
-	{
-		for (auto& shield : m_ObstaclesList)
-		{
-			auto it = shield.blocks.begin();
-			while (it != shield.blocks.end())
-			{
-				if (CheckCollisionRecs(it->getRect(), enemy.getRect())) it = shield.blocks.erase(it);
-				else ++it;
-			}
-		}
-		if (CheckCollisionRecs(enemy.getRect(), m_Player.getRect())) m_GameOver();
-
-	}
 }
 
 void GAME::m_GameOver()
@@ -378,8 +247,8 @@ void GAME::m_Reset()
 	m_Player.Reset();
 	m_AliensList.clear();
 	m_enemyBullets.clear();
-	m_ObstaclesList.clear();
 	m_InitGame();
+	playerLives = 3;
 }
 
 void GAME::m_CheckforHighScore()

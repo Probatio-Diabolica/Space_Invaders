@@ -1,7 +1,7 @@
 #pragma once
 #include "Utils/BulletList.hpp"
 #include "Utils/Bullet.hpp"
-#include "Spaceship.hpp"
+#include "Player.hpp"
 #include "Obstacles.hpp"
 #include "Enemy.hpp"
 #include "BonusEnemy.hpp"

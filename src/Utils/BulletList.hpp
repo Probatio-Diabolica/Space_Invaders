@@ -11,8 +11,6 @@ private:
 public:
 	int removed = 0;
 
-; private:
-	//void m_shuffle();
 public:
 	bulletList();
 	bulletList(const bulletList& other);
