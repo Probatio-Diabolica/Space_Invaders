@@ -3,7 +3,7 @@
 #include<string>
 #include<chrono>
 #include "GAME.hpp"
-#include "Obstacles.hpp"
+//#include "Obstacles.hpp"
 #include "Enemy.hpp"
 
 

@@ -2,7 +2,7 @@
 #include "Utils/BulletList.hpp"
 #include "Utils/Bullet.hpp"
 #include "Player.hpp"
-#include "Obstacles.hpp"
+//#include "Obstacles.hpp"
 #include "Enemy.hpp"
 #include "BonusEnemy.hpp"
 #define ENEMY_BULLET_SPD -6

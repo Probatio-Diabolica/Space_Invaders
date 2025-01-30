@@ -52,9 +52,10 @@ To run this project using **Visual Studio**:
 
 ## Gameplay
 
-![Demo of my project](Assets/Demo/gamePlay.gif)
+![Demo of my project](Assets/Demo/demo.gif)
 
 The game starts with a grid of alien invaders moving horizontally across the screen. Every time they hit the screen's edge, they descend closer to the player. The player must destroy all the invaders by shooting them while avoiding being hit by their projectiles. The game gets progressively harder as invaders increase in speed.
 
-## to add:
-> Delta time support for the bad bullet events
+## todo:
+> Bullet patterns.
+> Bug that causes the game to crash when all enemies die.

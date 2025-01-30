@@ -15,12 +15,6 @@ Bullet::Bullet(Vector2 position, short int spd)
 	m_Active = true;
 }
 
-Bullet::Bullet(Vector2 position, short int spd)
-	:m_Position(position)
-	, m_SPD(spd)
-{
-	m_Active = true;
-}
 
 void Bullet::Update()
 {
